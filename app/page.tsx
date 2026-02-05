@@ -413,7 +413,7 @@ export default function Home() {
                       <p className="text-slate-500 text-sm">Professional Profile</p>
                     </div>
                   </a>
-                  <a href="mailto:contact@khorlingling.com" className="flex items-center gap-4 p-4 rounded-xl bg-white border border-slate-100 hover:border-blue-300 hover:shadow-md transition-all group">
+                  <a href="mailto:lingkhor@solutioning.sg" className="flex items-center gap-4 p-4 rounded-xl bg-white border border-slate-100 hover:border-blue-300 hover:shadow-md transition-all group">
                     <div className="p-3 bg-blue-50 rounded-lg text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-colors">
                       <Mail size={20} />
                     </div>
