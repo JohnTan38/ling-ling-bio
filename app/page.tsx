@@ -158,13 +158,13 @@ export default function Home() {
             <div className="flex flex-col md:flex-row items-center gap-12 pt-8">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-3xl overflow-hidden shadow-2xl rotate-3 bg-indigo-200 relative">
                  <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/20 to-purple-500/20 z-10" />
-                 {/* Profile photo - Update this when actual photo is uploaded */}
+                 {/* Profile photo */}
                  <Image 
-                    src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800" 
+                    src="/images/ling-ling.jpeg"
                     alt="Ms Khor Ling Ling" 
                     width={800}
                     height={800}
-                    className="w-full h-full object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-500"
+                    className="w-full h-full object-cover object-top grayscale-[10%] hover:grayscale-0 transition-all duration-500"
                     priority
                  />
               </div>
