@@ -160,11 +160,11 @@ export default function Home() {
                  <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/20 to-purple-500/20 z-10" />
                  {/* Profile photo */}
                  <Image 
-                    src="/images/ling-ling.jpeg"
-                    alt="Ms Khor Ling Ling" 
+                    src="/images/ling-ling.jpg"
+                    alt="Ms Khor Ling Ling – HR Leader, Mentor & Educator"
                     width={800}
                     height={800}
-                    className="w-full h-full object-cover object-top grayscale-[10%] hover:grayscale-0 transition-all duration-500"
+                    className="w-full h-full object-cover object-center hover:scale-105 transition-all duration-500"
                     priority
                  />
               </div>
